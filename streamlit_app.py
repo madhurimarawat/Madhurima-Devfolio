@@ -361,7 +361,7 @@ def display_achievements():
                 <ul style = "text-align: justify">
                 <li><b>NEP Conference Presenter:</b> Engaged the audience at the NEP Conference with a concise presentation on the rich heritage and culture of my home state. Contributed diverse perspectives, fostering cultural awareness.</li>
     <li> <b>GitHub Profile:</b> Diverse ML and programming projects, impactful internship contributions. Meticulously documented with beginner-friendly instructions for an innovative and visually appealing coding profile.</li>
-    <li> HackerRank Proficiency:</b> Earned a commendable 5-star HackerRank rating in Python and MySQL, showcasing intermediate Python and beginner-level SQL skills, with a notable 3-star rating in C programming.</li>
+    <li><b> HackerRank Proficiency:</b> Earned a commendable 5-star HackerRank rating in Python and MySQL, showcasing intermediate Python and beginner-level SQL skills, with a notable 3-star rating in C programming.</li>
     </ul>""", unsafe_allow_html=True)
 
 
