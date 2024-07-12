@@ -12,7 +12,7 @@ def display_objective():
               <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Data+Science+Enthusiast+🇮🇳"
                 alt="Typing SVG" loading="lazy" />
             </a></p>
-                """, unsafe_allow_html = True)
+                """, unsafe_allow_html=True)
     st.markdown("### Objective")
     st.markdown("""
                 <p style = "text-align: justify">Passionate about continuous learning, I seek a dynamic environment to apply 
@@ -76,6 +76,7 @@ def display_objective():
               me! 📚✨
             </p>
                 """, unsafe_allow_html=True)
+
     
 def display_education():
     st.header("🧑‍🎓 &nbsp;Education")
@@ -114,7 +115,8 @@ def display_education():
           <td>2019</td>
         </tr>
       </table>
-                """, unsafe_allow_html = True)
+                """, unsafe_allow_html=True)
+
 
 def display_experience():
     # Experience Section
@@ -184,7 +186,8 @@ def display_experience():
           </td>
         </tr>
       </table>
-      """, unsafe_allow_html = True)
+      """, unsafe_allow_html=True)
+
 
 def display_projects():
     st.header("📎 &nbsp; Projects")
@@ -194,7 +197,7 @@ def display_projects():
         <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Discover+Innovative+Projects+Developed"
           alt="Typing SVG" loading="lazy" />
       </a>
-                """, unsafe_allow_html = True)
+                """, unsafe_allow_html=True)
     st.markdown("""
 <p style = "text-align:center">Click on the Thumbnail to See the Website</p>
   <table style="text-align:center; width: 100%;">
@@ -308,8 +311,7 @@ def display_projects():
 </table>
 
 
- """, unsafe_allow_html = True)
-    
+ """, unsafe_allow_html=True)
 
     
 def display_skills():
@@ -340,7 +342,6 @@ def display_skills():
     st.markdown('<i class="fas fa-user-check"></i>&nbsp; Open-mindedness', unsafe_allow_html=True)
     st.markdown('<i class="fas fa-comments"></i>&nbsp; Proficient Communicator', unsafe_allow_html=True)
     st.markdown('<i class="fas fa-bolt"></i>&nbsp; Quick Learner', unsafe_allow_html=True)
-
     
 
 def display_achievements():
@@ -361,7 +362,8 @@ def display_achievements():
                 <li><b>NEP Conference Presenter:</b> Engaged the audience at the NEP Conference with a concise presentation on the rich heritage and culture of my home state. Contributed diverse perspectives, fostering cultural awareness.</li>
     <li> <b>GitHub Profile:</b> Diverse ML and programming projects, impactful internship contributions. Meticulously documented with beginner-friendly instructions for an innovative and visually appealing coding profile.</li>
     <li> HackerRank Proficiency:</b> Earned a commendable 5-star HackerRank rating in Python and MySQL, showcasing intermediate Python and beginner-level SQL skills, with a notable 3-star rating in C programming.</li>
-    </ul>""", unsafe_allow_html = True)
+    </ul>""", unsafe_allow_html=True)
+
 
 def display_hobbies():
   st.header("✨ &nbsp; Hobbies and Interests")
@@ -372,7 +374,7 @@ def display_hobbies():
           loading="lazy" />
       </a>
     </p>
-              """, unsafe_allow_html = True)
+              """, unsafe_allow_html=True)
   st.markdown("""
               <table style="width:100%; text-align:center; border-collapse: collapse;">
                <colgroup>
@@ -412,7 +414,8 @@ def display_hobbies():
   </tbody>
 </table>
 
-              """, unsafe_allow_html = True)
+              """, unsafe_allow_html=True)
+
 
 def main():
     st.title("Madhurima Rawat's Devfolio")
@@ -420,11 +423,20 @@ def main():
     # Sidebar navigation
     st.sidebar.title("Explore")
     selected_section = st.sidebar.radio("Go to", ["Profile", "Education", "Experience", "Projects", "Skills", "Achievements", "Hobbies"])
-    
+
     # Include Font Awesome CSS
     st.sidebar.markdown("""
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <div class="sidebar-content">
+            <h1><a href="https://drive.google.com/file/d/1EYrjwt8p55lhdj78in0dio0IwTDdsPAL/view?usp=sharing" target="_blank">
+                <i class="fas fa-file-alt"></i> Visit My Resume
+            </a></h1>
+        </div>
+        
     """, unsafe_allow_html=True)
+    
+    # Print newlines
+    st.sidebar.write("\n")
 
     # Links with Font Awesome icons
     st.sidebar.markdown("""
@@ -434,7 +446,7 @@ def main():
       <a href="https://www.linkedin.com/in/madhurima-rawat/"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp;|&nbsp;
       <a href="https://linktr.ee/madhurima_rawat" target="_blank"><i class="fa fa-link"></i> LinkTree</a> &nbsp;|&nbsp;
       <a href="https://madhurimarawat.github.io/Portfolio-Website/"><i class="fas fa-globe"></i> Portfolio</a> &nbsp;|
-      <a href="index.htm"><i class="fas fa-code"></i> Devfolio</a> &nbsp;|&nbsp;
+      <a href="https://madhurima-devfolio.streamlit.app/"><i class="fas fa-code"></i> Devfolio</a> &nbsp;|&nbsp;
       <a href="https://hackerrank.com/rawatmadhurima4"><i class="fas fa-laptop-code"></i> HackerRank</a> &nbsp;|&nbsp;
       <a href="https://alison.com/profile/31860447"><i class="fas fa-tools"></i> Alison</a>             
 """, unsafe_allow_html=True)
@@ -460,6 +472,7 @@ def main():
         
     elif selected_section == "Hobbies":
         display_hobbies()
+
 
 if __name__ == "__main__":
     main()
