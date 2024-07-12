@@ -1,5 +1,4 @@
 import streamlit as st
-import streamlit_ace as st_ace
 
 css_example = '''                                                                                                                                                    
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">   '''
