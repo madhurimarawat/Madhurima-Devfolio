@@ -89,7 +89,7 @@ def display_education():
     </p>
     """, unsafe_allow_html=True)
     st.markdown("""
-                <table style = "text-align:center">
+                <table style = "text-align:center; width: 100%; border-collapse: collapse;">
         <tr>
           <th>Degree/Certificate</th>
           <th>Institute/Board</th>
@@ -132,7 +132,7 @@ def display_experience():
     
     st.markdown("""
                 
-                <table style = "text-align:justify">
+                <table style = "text-align:justify; width: 100%; border-collapse: collapse;">
         <tr style = "text-align:center">
           <th>Company</th>
           <th>Role</th>
@@ -200,8 +200,8 @@ def display_projects():
                 """, unsafe_allow_html=True)
     st.markdown("""
 <p style = "text-align:center">Click on the Thumbnail to See the Website</p>
-  <table style="text-align:center; width: 100%;">
-                <colgroup>
+  <table style="text-align:center; width: 100%; border-collapse: collapse;">
+      <colgroup>
         <col style="width: 30%;">
         <col style="width: 20%;">
         <col style="width: 50%;">
