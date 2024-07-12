@@ -398,7 +398,7 @@ def display_hobbies():
         <p>“A machine’s perspective on the world.”</p>
       </td>
       <td>
-        <img src="https://clipart-library.com/images_k/book-clipart-transparent/book-clipart-transparent-22.png" title="Girl With book and Butterfly" alt="Girl With book and Butterfly" height="230px" width="100%" loading="lazy" />
+        <img src="https://clipart-library.com/images_k/book-clipart-transparent/book-clipart-transparent-22.png" title="Books Illustration" alt="Books Illustration" height="250px" width="100%" loading="lazy" />
         <p>“A good book is an event in life.”</p>
       </td>
       <td>
