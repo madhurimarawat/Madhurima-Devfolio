@@ -1,10 +1,12 @@
+# Importing Strealit
 import streamlit as st
 
+# To show Font Awesome icons
 css_example = '''                                                                                                                                                    
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">   '''
 
 
-# Function definitions for each section
+# Function for Displaying Objectives and about me
 def display_objective():
     st.markdown("""
                 <p style = "text-align:center"> 
@@ -77,7 +79,7 @@ def display_objective():
             </p>
                 """, unsafe_allow_html=True)
 
-    
+ # Function for displaying Education   
 def display_education():
     st.header("🧑‍🎓 &nbsp;Education")
     # Adding the HTML snippet
@@ -117,7 +119,7 @@ def display_education():
       </table>
                 """, unsafe_allow_html=True)
 
-
+# Function for displaying Experience
 def display_experience():
     # Experience Section
     st.header("📑 &nbsp; Experience")
@@ -188,7 +190,7 @@ def display_experience():
       </table>
       """, unsafe_allow_html=True)
 
-
+# Function for displaying Projects
 def display_projects():
     st.header("📎 &nbsp; Projects")
     st.markdown("""
@@ -313,7 +315,7 @@ def display_projects():
 
  """, unsafe_allow_html=True)
 
-    
+# Function for displaying Skills    
 def display_skills():
     
     st.header("📚 &nbsp; Skills")
@@ -344,6 +346,7 @@ def display_skills():
     st.markdown('<i class="fas fa-bolt"></i>&nbsp; Quick Learner', unsafe_allow_html=True)
     
 
+# Function for displaying Achievements
 def display_achievements():
     st.header("🌟 &nbsp; Achievements")
     st.markdown("""
@@ -365,92 +368,9 @@ def display_achievements():
     </ul>""", unsafe_allow_html=True)
 
 
-def display_hobbies():
-  st.header("✨ &nbsp; Hobbies and Interests")
-  st.markdown("""
-              <p style="text-align: center;">
-      <a href="https://git.io/typing-svg" style="text-align: center;">
-        <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=My+World+of+Interests" alt="Typing SVG"
-          loading="lazy" />
-      </a>
-    </p>
-              """, unsafe_allow_html=True)
-  st.markdown("""
-              <table style="width:100%; text-align:center; border-collapse: collapse;">
-               <colgroup>
-        <col style="width: 25%;">
-        <col style="width: 25%;">
-        <col style="width: 25%;">
-        <col style="width: 25%;">
-    </colgroup>
-  <thead>
-    <tr>
-      <th>AI Arts 🖌️💻</th>
-      <th>Literature 📚📖</th>
-      <th>Music 🎼🎵</th>
-      <th>Nature Photography 📸🏞️</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img src="https://i.pinimg.com/originals/67/c9/e5/67c9e57e96086000be0d3170be657ea1.jpg" title="AI Art Illustration" alt="AI Art Illustration" height="250px" width="100%" loading="lazy" />
-        <p>“A machine’s perspective on the world.”</p>
-      </td>
-      <td>
-        <img src="https://clipart-library.com/images_k/book-clipart-transparent/book-clipart-transparent-22.png" title="Books Illustration" alt="Books Illustration" height="225px" width="100%" loading="lazy" />
-        <p>“A good book is an event in life.”</p>
-      </td>
-      <td>
-       <img src="https://static.vecteezy.com/system/resources/previews/000/458/803/original/music-theme-design-vector.jpg"
-              title="Music-vector-Feature Illustration" alt="Music-vector-Feature Illustration" height="250px" width="100%" loading="lazy" />
-        <p>“Music is to Heart what Medicine is to Body.”</p>
-      </td>
-      <td>
-        <img src="https://th.bing.com/th/id/OIP.UClnWD6Moakuq8jQh3nEiAHaFj?pid=ImgDet&rs=1" title="Nature Photography Illustration" alt="Nature Photography Illustration" height="250px" width="100%" loading="lazy" />
-        <p>“Nature always wears the colors of the spirit.”</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-              """, unsafe_allow_html=True)
-
-
-def main():
-    st.title("Madhurima Rawat's Devfolio")
-
-    # Sidebar navigation
-    st.sidebar.title("Explore")
-    selected_section = st.sidebar.radio("Go to", ["Profile", "Education", "Experience", "Projects", "Skills", "Achievements", "Hobbies"])
-
-    # Include Font Awesome CSS
-    st.sidebar.markdown("""
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-        <div class="sidebar-content">
-            <h1><a href="https://drive.google.com/file/d/1EYrjwt8p55lhdj78in0dio0IwTDdsPAL/view?usp=sharing" target="_blank">
-                <i class="fas fa-file-alt"></i> Visit My Resume
-            </a></h1>
-        </div>
-        
-    """, unsafe_allow_html=True)
+# Function for section navigation
+def select_section(selected_section):
     
-    # Print newlines
-    st.sidebar.write("\n")
-
-    # Links with Font Awesome icons
-    st.sidebar.markdown("""
-        <a href="mailto:rawatmadhurima@gmail.com"><i class="fas fa-envelope"></i> Email</a> &nbsp; | &nbsp;
-      <a href="tel:+9407959924"><i class="fa fa-phone"></i> 9407959924</a> &nbsp; | &nbsp;
-      <a href="https://github.com/madhurimarawat"><i class="fab fa-github"></i> GitHub</a> &nbsp; |
-      <a href="https://www.linkedin.com/in/madhurima-rawat/"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp;|&nbsp;
-      <a href="https://linktr.ee/madhurima_rawat" target="_blank"><i class="fa fa-link"></i> LinkTree</a> &nbsp;|&nbsp;
-      <a href="https://madhurimarawat.github.io/Portfolio-Website/"><i class="fas fa-globe"></i> Portfolio</a> &nbsp;|
-      <a href="https://madhurima-devfolio.streamlit.app/"><i class="fas fa-code"></i> Devfolio</a> &nbsp;|&nbsp;
-      <a href="https://hackerrank.com/rawatmadhurima4"><i class="fas fa-laptop-code"></i> HackerRank</a> &nbsp;|&nbsp;
-      <a href="https://alison.com/profile/31860447"><i class="fas fa-tools"></i> Alison</a>             
-""", unsafe_allow_html=True)
-
     # Content based on selected section
     if selected_section == "Profile":
         display_objective()
@@ -469,10 +389,52 @@ def main():
 
     elif selected_section == "Achievements":
         display_achievements()
+
+    
+# Social Links
+def social_links():
+    
+    # Links with Font Awesome icons
+    st.sidebar.markdown("""
+        <a href="mailto:rawatmadhurima@gmail.com"><i class="fas fa-envelope"></i> Email</a> &nbsp; | &nbsp;
+      <a href="tel:+9407959924"><i class="fa fa-phone"></i> 9407959924</a> &nbsp; | &nbsp;
+      <a href="https://github.com/madhurimarawat"><i class="fab fa-github"></i> GitHub</a> &nbsp; |
+      <a href="https://www.linkedin.com/in/madhurima-rawat/"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp;|&nbsp;
+      <a href="https://linktr.ee/madhurima_rawat" target="_blank"><i class="fa fa-link"></i> LinkTree</a> &nbsp;|&nbsp;
+      <a href="https://madhurimarawat.github.io/Portfolio-Website/"><i class="fas fa-globe"></i> Portfolio</a> &nbsp;|
+      <a href="https://madhurima-devfolio.streamlit.app/"><i class="fas fa-code"></i> Devfolio</a> &nbsp;|&nbsp;
+      <a href="https://hackerrank.com/rawatmadhurima4"><i class="fas fa-laptop-code"></i> HackerRank</a> &nbsp;|&nbsp;
+      <a href="https://alison.com/profile/31860447"><i class="fas fa-tools"></i> Alison</a>             
+""", unsafe_allow_html=True)
+
+# Main Function
+def main():
+    st.title("Madhurima Rawat's Devfolio")
+
+    # Sidebar navigation
+    st.sidebar.title("Explore")
+    selected_section = st.sidebar.radio("Go to", ["Profile", "Education", "Experience", "Projects", "Skills", "Achievements"])
+
+    # Include Font Awesome CSS
+    st.sidebar.markdown("""
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <div class="sidebar-content">
+            <h1><a href="https://drive.google.com/file/d/1EYrjwt8p55lhdj78in0dio0IwTDdsPAL/view?usp=sharing" target="_blank">
+                <i class="fas fa-file-alt"></i> Visit My Resume
+            </a></h1>
+        </div>
         
-    elif selected_section == "Hobbies":
-        display_hobbies()
+    """, unsafe_allow_html=True)
+    
+    # Print newlines
+    st.sidebar.write("\n")
 
+    # Displaying Links
+    social_links()
+    
+    # Showing sections
+    select_section(selected_section)
 
+# Calling Main Funtion
 if __name__ == "__main__":
     main()
