@@ -3,12 +3,13 @@ This repository contains my devfolio, showcasing my skills, projects, and achiev
 
 <h2>Website Design</h2>
 
-<a href = "https://madhurima-devfolio.streamlit.app/">![Screenshot 2024-07-12 151718](https://github.com/user-attachments/assets/268fd5c9-11a9-4e19-bf8c-ccf0c95140f6)</a><br><br>
-<a href = "https://madhurima-devfolio.streamlit.app/">![Screenshot 2024-07-12 152353](https://github.com/user-attachments/assets/4e17b69b-5cfb-4e01-8dd3-182b334dad7f)</a><br><br>
-<a href = "https://madhurima-devfolio.streamlit.app/">![Screenshot 2024-07-12 151920](https://github.com/user-attachments/assets/0879f1ca-b837-4b7d-a17e-04d1ce759c56)
+<a href = "https://madhurima-devfolio.streamlit.app/">![Screenshot 2024-07-14 195350](https://github.com/user-attachments/assets/47f1f1f2-4347-4dc5-a2b3-f3bc088ab9aa)
 </a><br><br>
-<a href = "https://madhurima-devfolio.streamlit.app/">![Screenshot 2024-07-12 152021](https://github.com/user-attachments/assets/b4fb61b5-67ba-4946-aa25-ab1547866db5)
-</a>
+<a href = "https://madhurima-devfolio.streamlit.app/">![Screenshot 2024-07-14 195301](https://github.com/user-attachments/assets/9133ca11-e28e-4690-befb-a5cc84e1a369)
+</a><br><br>
+<a href = "https://madhurima-devfolio.streamlit.app/">![Screenshot 2024-07-14 195323](https://github.com/user-attachments/assets/0cc5d2ed-e02d-457c-9889-d4272c329247)
+</a><br><br>
+<a href = "https://madhurima-devfolio.streamlit.app/">![Screenshot 2024-07-14 195420](https://github.com/user-attachments/assets/d21472ff-d2a1-420d-9ae3-f2f122b7f723)
 
 ## Technology Used 💻
 
