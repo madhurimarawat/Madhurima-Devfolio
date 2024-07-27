@@ -79,6 +79,7 @@ def display_objective():
             </p>
                 """, unsafe_allow_html=True)
 
+
  # Function for displaying Education   
 def display_education():
     st.header("🧑‍🎓 &nbsp;Education")
@@ -118,6 +119,7 @@ def display_education():
         </tr>
       </table>
                 """, unsafe_allow_html=True)
+
 
 # Function for displaying Experience
 def display_experience():
@@ -190,6 +192,7 @@ def display_experience():
       </table>
       """, unsafe_allow_html=True)
 
+
 # Function for displaying Projects
 def display_projects():
     st.header("📎 &nbsp; Projects")
@@ -201,9 +204,9 @@ def display_projects():
       </a>
                 """, unsafe_allow_html=True)
     st.markdown("""
-<p style = "text-align:center">Click on the Thumbnail to See the Website</p>
-  <table style="text-align:center; width: 100%; border-collapse: collapse;">
-      <colgroup>
+<p style="text-align:center">Click on the Thumbnail to See the Website</p>
+<table style="text-align:center; width: 100%; border-collapse: collapse;">
+    <colgroup>
         <col style="width: 30%;">
         <col style="width: 20%;">
         <col style="width: 50%;">
@@ -232,17 +235,15 @@ def display_projects():
                 </p>
             </td>
             <td style="text-align:justify">
-            <p>
-            <b>Technologies:</b> CSS, HTML, JavaScript, and Bootstrap<br>
-                Executed frontend development for a Library Management System Website, enhancing book tracking, user management, and overall library experience.
-               </p> 
+                <p><b>Technologies:</b> CSS, HTML, JavaScript, and Bootstrap<br>
+                Executed frontend development for a Library Management System Website, enhancing book tracking, user management, and overall library experience.</p>
             </td>
         </tr>
         <!-- ML Models Row -->
         <tr>
             <td>
                 <a href="https://ml-model-datasets-using-apps-3gy37ndiancjo2nmu36sls.streamlit.app/">
-                    <img src="https://github.com/madhurimarawat/ML-Model-Datasets-Using-Streamlits/assets/105432776/40af8454-c72a-4751-9976-863170693fb8"" height="150px" title="Machine Learning Model Website" alt="Website Image" loading="lazy" />
+                    <img src="https://github.com/madhurimarawat/ML-Model-Datasets-Using-Streamlits/assets/105432776/40af8454-c72a-4751-9976-863170693fb8" height="150px" title="Machine Learning Model Website" alt="Website Image" loading="lazy" />
                 </a>
             </td>
             <td>
@@ -254,12 +255,8 @@ def display_projects():
                 </p>
             </td>
             <td style="text-align:justify">
-            <p>
-            <b>Technologies:</b> Python, Scikit Learn, Joblib, and Streamlit<br>
-                Developed HyperTuneML Platform, a comprehensive platform showcasing diverse machine learning models with real-world 
-                datasets. Offers practical insights to enhance understanding of predictive analytics, catering to learners 
-                at all levels.
-                </p>
+                <p><b>Technologies:</b> Python, Scikit Learn, Joblib, and Streamlit<br>
+                Developed HyperTuneML Platform, a comprehensive platform showcasing diverse machine learning models with real-world datasets. Offers practical insights to enhance understanding of predictive analytics, catering to learners at all levels.</p>
             </td>
         </tr>
         <!-- Web Scraper Row -->
@@ -278,11 +275,8 @@ def display_projects():
                 </p>
             </td>
             <td style="text-align:justify">
-            <p>
-             <b>Technologies:</b> Python, Requests, bs4, and Streamlit<br>
-                Developed a Web Scraper Website with versatile functions for efficient data extraction from diverse websites. 
-                Showcases commitment to enhancing data accessibility and streamlining information retrieval processes. 
-                </p>
+                <p><b>Technologies:</b> Python, Requests, bs4, and Streamlit<br>
+                Developed a Web Scraper Website with versatile functions for efficient data extraction from diverse websites. Showcases commitment to enhancing data accessibility and streamlining information retrieval processes.</p>
             </td>
         </tr>
         <!-- GitHub Repository Lister Row -->
@@ -301,19 +295,37 @@ def display_projects():
                 </p>
             </td>
             <td style="text-align:justify">
-            <p>
-            <b>Technologies:</b> CSS, HTML, JavaScript, and Bootstrap<br>
-                Explore detailed GitHub user profiles with profile images, bios, locations, followers, and up to 30 public repositories. 
-                Navigate repositories easily with intuitive pagination, and enjoy dynamic loading animations. Also explore a toolkit 
-                about GitHub.
+                <p><b>Technologies:</b> CSS, HTML, JavaScript, and Bootstrap<br>
+                Explore detailed GitHub user profiles with profile images, bios, locations, followers, and up to 30 public repositories. Navigate repositories easily with intuitive pagination, and enjoy dynamic loading animations. Also explore a toolkit about GitHub.</p>
+            </td>
+        </tr>
+        <!-- Semester Notes Row -->
+        <tr>
+            <td>
+                <a href="https://madhurimarawat.github.io/Semester-Notes/">
+                    <img src="https://github.com/user-attachments/assets/f84acd1e-c09b-40e7-a76a-429359a6c222" height="150px" title="Semester Notes Website" alt="Semester Notes Lister Website" loading="lazy" />
+                </a>
+            </td>
+            <td>
+                <p>Study Materials</p>
+                <p>
+                    <a href="https://madhurimarawat.github.io/Semester-Notes/"><i class="fas fa-globe"></i> Website</a>
+                    <br>
+                    <a href="https://github.com/madhurimarawat/Semester-Notes"><i class="fab fa-github"></i> GitHub</a>
                 </p>
+            </td>
+            <td style="text-align:justify">
+                <p><b>Technologies:</b> CSS, HTML, JavaScript, and Bootstrap<br>
+                Comprehensive repository of course materials, lecture notes, and study guides tailored to a range of subjects. A valuable resource for students seeking organized and easily accessible academic content, promoting effective learning and study practices.</p>
             </td>
         </tr>
     </tbody>
 </table>
 
 
+
  """, unsafe_allow_html=True)
+
 
 # Function for displaying Skills    
 def display_skills():
@@ -407,6 +419,7 @@ def social_links():
       <a href="https://alison.com/profile/31860447"><i class="fas fa-tools"></i> Alison</a>             
 """, unsafe_allow_html=True)
 
+
 # Main Function
 def main():
     st.title("Madhurima Rawat's Devfolio")
@@ -434,6 +447,7 @@ def main():
     
     # Showing sections
     select_section(selected_section)
+
 
 # Calling Main Funtion
 if __name__ == "__main__":
