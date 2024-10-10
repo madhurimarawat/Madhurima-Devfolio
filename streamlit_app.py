@@ -2,32 +2,44 @@
 import streamlit as st
 
 # To show Font Awesome icons
-css_example = '''                                                                                                                                                    
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">   '''
+css_example = """                                                                                                                                                    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">   """
 
 
 # Function for Displaying Objectives and about me
 def display_objective():
-    st.markdown("""
+    st.markdown(
+        """
                 <p style = "text-align:center"> 
                 <a href="https://git.io/typing-svg">
               <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Data+Science+Enthusiast+🇮🇳"
                 alt="Typing SVG" loading="lazy" />
             </a></p>
-                """, unsafe_allow_html=True)
+                """,
+        unsafe_allow_html=True,
+    )
     st.markdown("### Objective")
-    st.markdown("""
+    st.markdown(
+        """
                 <p style = "text-align: justify">Passionate about continuous learning, I seek a dynamic environment to apply 
                 and expand my technical skills, leveraging strong communication, attention to detail, and confidence to contribute 
-                meaningfully to innovative projects.</p>""", unsafe_allow_html=True)
+                meaningfully to innovative projects.</p>""",
+        unsafe_allow_html=True,
+    )
     st.markdown("### Summary")
-    st.markdown("""
+    st.markdown(
+        """
                 <p style = "text-align: justify">
                 With a passion for learning and exploring new horizons, I'm committed to self-improvement, continually expanding my knowledge and skills, both in the world of technology and beyond. As a confident public speaker with strong communication skills and a knack for effective reading and writing, I enjoy sharing insights and connecting with people from diverse backgrounds.
-                </p>""", unsafe_allow_html=True)
-    st.markdown("""<h3 style = "text-align:left"> 👩‍💻 &nbsp;About Me""", unsafe_allow_html=True)
+                </p>""",
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        """<h3 style = "text-align:left"> 👩‍💻 &nbsp;About Me""", unsafe_allow_html=True
+    )
     st.write("\n")
-    st.markdown("""
+    st.markdown(
+        """
             <p style = "text-align:left">👋 I’m Madhurima Rawat 🧑‍🎓</p>
             <p style = "text-align:left">
               👀 I’m interested in data structures and programming languages
@@ -77,21 +89,27 @@ def display_objective():
               💡 Feel free to share any good story or article resources with
               me! 📚✨
             </p>
-                """, unsafe_allow_html=True)
+                """,
+        unsafe_allow_html=True,
+    )
 
 
- # Function for displaying Education   
+# Function for displaying Education
 def display_education():
     st.header("🧑‍🎓 &nbsp;Education")
     # Adding the HTML snippet
-    st.markdown("""
+    st.markdown(
+        """
     <p style="text-align:center;">
       <a href="https://git.io/typing-svg" style="text-align:left;">
         <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Knowledge+Empowers+the+Future"
           alt="Typing SVG" loading="lazy" /></a>
     </p>
-    """, unsafe_allow_html=True)
-    st.markdown("""
+    """,
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        """
                 <table style = "text-align:center; width: 100%; border-collapse: collapse;">
         <tr>
           <th>Degree/Certificate</th>
@@ -118,23 +136,29 @@ def display_education():
           <td>2019</td>
         </tr>
       </table>
-                """, unsafe_allow_html=True)
+                """,
+        unsafe_allow_html=True,
+    )
 
 
 # Function for displaying Experience
 def display_experience():
     # Experience Section
     st.header("📑 &nbsp; Experience")
-    
-    st.markdown("""
+
+    st.markdown(
+        """
     <p style="text-align:center;">
       <a href="https://git.io/typing-svg" style="text-align:left;">
         <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Hands-on+Experience+Gained"
           alt="Typing SVG" loading="lazy" /></a>
     </p>
-    """, unsafe_allow_html=True)
-    
-    st.markdown("""
+    """,
+        unsafe_allow_html=True,
+    )
+
+    st.markdown(
+        """
                 
                 <table style = "text-align:justify; width: 100%; border-collapse: collapse;">
         <tr style = "text-align:center">
@@ -190,20 +214,26 @@ def display_experience():
           </td>
         </tr>
       </table>
-      """, unsafe_allow_html=True)
+      """,
+        unsafe_allow_html=True,
+    )
 
 
 # Function for displaying Projects
 def display_projects():
     st.header("📎 &nbsp; Projects")
-    st.markdown("""
+    st.markdown(
+        """
 <p style="text-align: center;">
       <a href="https://git.io/typing-svg" style="text-align: center;">
         <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Discover+Innovative+Projects+Developed"
           alt="Typing SVG" loading="lazy" />
       </a>
-                """, unsafe_allow_html=True)
-    st.markdown("""
+                """,
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        """
 <p style="text-align:center">Click on the Thumbnail to See the Website</p>
 <table style="text-align:center; width: 100%; border-collapse: collapse;">
     <colgroup>
@@ -303,7 +333,7 @@ def display_projects():
         <tr>
             <td>
                 <a href="https://madhurimarawat.github.io/Semester-Notes/">
-                    <img src="https://github.com/user-attachments/assets/f84acd1e-c09b-40e7-a76a-429359a6c222" height="150px" title="Semester Notes Website" alt="Semester Notes Lister Website" loading="lazy" />
+                    <img src="https://github.com/user-attachments/assets/f84acd1e-c09b-40e7-a76a-429359a6c222" height="150px" title="Semester Notes Website" alt="Semester Notes Website" loading="lazy" />
                 </a>
             </td>
             <td>
@@ -319,20 +349,45 @@ def display_projects():
                 Comprehensive repository of course materials, lecture notes, and study guides tailored to a range of subjects. A valuable resource for students seeking organized and easily accessible academic content, promoting effective learning and study practices.</p>
             </td>
         </tr>
+        <!-- Semester Notes Row -->
+        <tr>
+            <td>
+                <a href="https://github.com/madhurimarawat/CodeCulture-Daily">
+                    <img src="https://github.com/user-attachments/assets/a3bfeab0-aa38-47ed-ad07-3a9a7b8906c7" height="150px" title="CodeCulture Website" alt="CodeCulture Website" loading="lazy" />
+                </a>
+            </td>
+            <td>
+                <p>CodeCulture Daily</p>
+                <p>
+                    <a href="https://madhurimarawat.github.io/CodeCulture-Daily/"><i class="fas fa-globe"></i> Website</a>
+                    <br>
+                    <a href="https://github.com/madhurimarawat/CodeCulture-Daily"><i class="fab fa-github"></i> GitHub</a>
+                </p>
+            </td>
+            <td style="text-align:justify">
+                <p><b>Technologies:</b>HTML, GitHub, Programming and Bootstrap<br>
+                CodeCulture-Daily is a programming challenge repository offering daily problems to boost
+                                coding skills. Solutions and
+                                explanations are posted at 7 PM, fostering collaborative learning.</p>
+            </td>
+        </tr>
     </tbody>
 </table>
 
 
 
- """, unsafe_allow_html=True)
+ """,
+        unsafe_allow_html=True,
+    )
 
 
-# Function for displaying Skills    
+# Function for displaying Skills
 def display_skills():
-    
+
     st.header("📚 &nbsp; Skills")
-    
-    st.markdown("""
+
+    st.markdown(
+        """
                  <p style="text-align: center;">
       <a href="https://git.io/typing-svg" style="text-align: center;">
         <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Diverse+Technical+Skills+Acquired"
@@ -341,27 +396,58 @@ def display_skills():
       </a>
     </p>
                 
-                """, unsafe_allow_html=True)
-    
+                """,
+        unsafe_allow_html=True,
+    )
+
     st.markdown("#### Technical Skills")
-    st.markdown('<i class="fas fa-code"></i>&nbsp; **Programming Languages:** C++, Python, C, R, Ruby, JavaScript, PHP, Java, MATLAB', unsafe_allow_html=True)
-    st.markdown('<i class="fas fa-laptop-code"></i>&nbsp; **Web Technologies:** HTML, CSS, Bootstrap, Streamlit, Flask', unsafe_allow_html=True)
-    st.markdown('<i class="fas fa-database"></i>&nbsp; **Database:** MySQL, Influxdb (Time Series Database)', unsafe_allow_html=True)
-    st.markdown('<i class="fas fa-pencil-ruler"></i>&nbsp; **IDE:** VS Code, PyCharm, Jupyter Notebooks, Komodo', unsafe_allow_html=True)
-    st.markdown('<i class="fas fa-tools"></i>&nbsp; **Miscellaneous:** GitHub, Grafana, Machine Learning, Web Scraping', unsafe_allow_html=True)
+    st.markdown(
+        '<i class="fas fa-code"></i>&nbsp; **Programming Languages:** C++, Python, C, R, Ruby, JavaScript, PHP, Java, MATLAB',
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        '<i class="fas fa-laptop-code"></i>&nbsp; **Web Technologies:** HTML, CSS, Bootstrap, Streamlit, Flask',
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        '<i class="fas fa-database"></i>&nbsp; **Database:** MySQL, Influxdb (Time Series Database)',
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        '<i class="fas fa-pencil-ruler"></i>&nbsp; **IDE:** VS Code, PyCharm, Jupyter Notebooks, Komodo',
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        '<i class="fas fa-tools"></i>&nbsp; **Miscellaneous:** GitHub, Grafana, Machine Learning, Web Scraping',
+        unsafe_allow_html=True,
+    )
 
     st.markdown("#### Soft Skills")
-    st.markdown('<i class="fas fa-exchange-alt"></i>&nbsp; Adaptability', unsafe_allow_html=True)
-    st.markdown('<i class="fas fa-search-plus"></i>&nbsp; Attention to Detail', unsafe_allow_html=True)
-    st.markdown('<i class="fas fa-user-check"></i>&nbsp; Open-mindedness', unsafe_allow_html=True)
-    st.markdown('<i class="fas fa-comments"></i>&nbsp; Proficient Communicator', unsafe_allow_html=True)
-    st.markdown('<i class="fas fa-bolt"></i>&nbsp; Quick Learner', unsafe_allow_html=True)
-    
+    st.markdown(
+        '<i class="fas fa-exchange-alt"></i>&nbsp; Adaptability', unsafe_allow_html=True
+    )
+    st.markdown(
+        '<i class="fas fa-search-plus"></i>&nbsp; Attention to Detail',
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        '<i class="fas fa-user-check"></i>&nbsp; Open-mindedness',
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        '<i class="fas fa-comments"></i>&nbsp; Proficient Communicator',
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        '<i class="fas fa-bolt"></i>&nbsp; Quick Learner', unsafe_allow_html=True
+    )
+
 
 # Function for displaying Achievements
 def display_achievements():
     st.header("🌟 &nbsp; Achievements")
-    st.markdown("""
+    st.markdown(
+        """
                  <p style="text-align: center;">
       <a href="https://git.io/typing-svg" style="text-align: center;">
         <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Highlighting+my+key+accomplishments"
@@ -370,19 +456,24 @@ def display_achievements():
       </a>
     </p>
                 
-                """, unsafe_allow_html=True)
-    
-    st.markdown("""
+                """,
+        unsafe_allow_html=True,
+    )
+
+    st.markdown(
+        """
                 <ul style = "text-align: justify">
                 <li><b>NEP Conference Presenter:</b> Engaged the audience at the NEP Conference with a concise presentation on the rich heritage and culture of my home state. Contributed diverse perspectives, fostering cultural awareness.</li>
     <li> <b>GitHub Profile:</b> Diverse ML and programming projects, impactful internship contributions. Meticulously documented with beginner-friendly instructions for an innovative and visually appealing coding profile.</li>
     <li><b> HackerRank Proficiency:</b> Earned a commendable 5-star HackerRank rating in Python and MySQL, showcasing intermediate Python and beginner-level SQL skills, with a notable 3-star rating in C programming.</li>
-    </ul>""", unsafe_allow_html=True)
+    </ul>""",
+        unsafe_allow_html=True,
+    )
 
 
 # Function for section navigation
 def select_section(selected_section):
-    
+
     # Content based on selected section
     if selected_section == "Profile":
         display_objective()
@@ -402,12 +493,13 @@ def select_section(selected_section):
     elif selected_section == "Achievements":
         display_achievements()
 
-    
+
 # Social Links
 def social_links():
-    
+
     # Links with Font Awesome icons
-    st.sidebar.markdown("""
+    st.sidebar.markdown(
+        """
         <a href="mailto:rawatmadhurima@gmail.com"><i class="fas fa-envelope"></i> Email</a> &nbsp; | &nbsp;
       <a href="tel:+9407959924"><i class="fa fa-phone"></i> 9407959924</a> &nbsp; | &nbsp;
       <a href="https://github.com/madhurimarawat"><i class="fab fa-github"></i> GitHub</a> &nbsp; |
@@ -417,7 +509,9 @@ def social_links():
       <a href="https://madhurima-devfolio.streamlit.app/"><i class="fas fa-code"></i> Devfolio</a> &nbsp;|&nbsp;
       <a href="https://hackerrank.com/rawatmadhurima4"><i class="fas fa-laptop-code"></i> HackerRank</a> &nbsp;|&nbsp;
       <a href="https://alison.com/profile/31860447"><i class="fas fa-tools"></i> Alison</a>             
-""", unsafe_allow_html=True)
+""",
+        unsafe_allow_html=True,
+    )
 
 
 # Main Function
@@ -426,10 +520,14 @@ def main():
 
     # Sidebar navigation
     st.sidebar.title("Explore")
-    selected_section = st.sidebar.radio("Go to", ["Profile", "Education", "Experience", "Projects", "Skills", "Achievements"])
+    selected_section = st.sidebar.radio(
+        "Go to",
+        ["Profile", "Education", "Experience", "Projects", "Skills", "Achievements"],
+    )
 
     # Include Font Awesome CSS
-    st.sidebar.markdown("""
+    st.sidebar.markdown(
+        """
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <div class="sidebar-content">
             <h1><a href="https://drive.google.com/file/d/1EYrjwt8p55lhdj78in0dio0IwTDdsPAL/view?usp=sharing" target="_blank">
@@ -437,14 +535,16 @@ def main():
             </a></h1>
         </div>
         
-    """, unsafe_allow_html=True)
-    
+    """,
+        unsafe_allow_html=True,
+    )
+
     # Print newlines
     st.sidebar.write("\n")
 
     # Displaying Links
     social_links()
-    
+
     # Showing sections
     select_section(selected_section)
 
