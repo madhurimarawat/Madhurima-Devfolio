@@ -1,4 +1,4 @@
-# Importing Strealit
+# Importing Streamlit
 import streamlit as st
 
 # To show Font Awesome icons
