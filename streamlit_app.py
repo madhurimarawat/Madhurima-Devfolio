@@ -349,7 +349,7 @@ def display_projects():
                 Comprehensive repository of course materials, lecture notes, and study guides tailored to a range of subjects. A valuable resource for students seeking organized and easily accessible academic content, promoting effective learning and study practices.</p>
             </td>
         </tr>
-        <!-- Semester Notes Row -->
+        <!-- CodeCulture Row -->
         <tr>
             <td>
                 <a href="https://github.com/madhurimarawat/CodeCulture-Daily">
