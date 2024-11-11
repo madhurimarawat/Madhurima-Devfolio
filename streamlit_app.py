@@ -549,6 +549,37 @@ def main():
     select_section(selected_section)
 
 
+# Function to include background image and opacity
+def display_background_image(url, opacity):
+    """
+    Displays a background image with a specified opacity on the web app using CSS.
+
+    Args:
+    - url (str): URL of the background image.
+    - opacity (float): Opacity level of the background image.
+    """
+    # Set background image using HTML and CSS
+    st.markdown(
+        f"""
+        <style>
+            body {{
+                background: url('{url}') no-repeat center center fixed;
+                background-size: cover;
+                opacity: {opacity};
+            }}
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 # Calling Main Funtion
 if __name__ == "__main__":
+
+    # Call function to display the background image with opacity
+    display_background_image(
+        "https://lirp.cdn-website.com/1764a706/dms3rep/multi/opt/What-is-project-first-Alpha-Alias-640w.jpeg",
+        0.8,
+    )
+
     main()
