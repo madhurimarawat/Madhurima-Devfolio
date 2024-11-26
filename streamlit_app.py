@@ -1,5 +1,66 @@
+"""
+Madhurima Rawat's Devfolio Web Application
+
+This script creates a personal portfolio web application using Streamlit. It showcases sections such as 
+profile, education, experience, projects, skills, and achievements in an interactive and visually appealing 
+manner. The app also includes a resume link and social media links for enhanced connectivity.
+
+Features:
+---------
+1. **Navigation**:
+   - Sidebar navigation with sections for:
+     - Profile
+     - Education
+     - Experience
+     - Projects
+     - Skills
+     - Achievements
+
+2. **Resume Integration**:
+   - Provides a direct link to download or view the resume via Google Drive.
+
+3. **Social Media Links**:
+   - Displays social media icons and links for easy access to profiles.
+
+4. **Customizable Background**:
+   - Adds a background image with adjustable opacity for a personalized look.
+
+5. **Font Awesome Icons**:
+   - Utilizes Font Awesome icons for enhanced visual appeal in links and sections.
+
+Technical Details:
+------------------
+- **Libraries Used**:
+  - Streamlit: For creating the interactive web application.
+  - Font Awesome: For icons and styling (integrated via a CSS link).
+
+- **Background Styling**:
+  - CSS is injected via Streamlit’s Markdown functionality to include a custom background image and style.
+
+- **User Interaction**:
+  - Sidebar radio buttons allow users to navigate through different sections of the portfolio.
+
+Usage:
+------
+1. Run the script using the Streamlit command:
+   ```
+   streamlit run streamlit_app.py
+   ```
+2. Use the sidebar to explore various sections of the portfolio.
+3. Click on the resume link or social media links for additional information.
+
+Note:
+-----
+Ensure a stable internet connection to load the Font Awesome icons and background image.
+"""
+
 # Importing Streamlit
 import streamlit as st
+
+# Setting Page title
+# This will only show in localhost not in the deployed app
+# In the deployed app, title will be displayed as Streamlit only
+st.set_page_config(page_title="Devfolio")
 
 # To show Font Awesome icons
 css_example = """                                                                                                                                                    
