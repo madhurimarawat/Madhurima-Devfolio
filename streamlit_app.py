@@ -58,8 +58,8 @@ Ensure a stable internet connection to load the Font Awesome icons and backgroun
 import streamlit as st
 
 # Setting Page title
-# This will only show in localhost not in the deployed app
-# In the deployed app, title will be displayed as Streamlit only
+# This will only show this title in the local and deployed app
+# If we will not set this, title will be displayed as Streamlit only
 st.set_page_config(page_title="Devfolio")
 
 # To show Font Awesome icons
