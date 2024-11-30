@@ -3,13 +3,26 @@ This repository contains my devfolio, showcasing my skills, projects, and achiev
 
 <h2>Website Design</h2>
 
-<a href = "https://madhurima-devfolio.streamlit.app/">![Screenshot 2024-07-14 195350](https://github.com/user-attachments/assets/ce17b1e7-a669-4ea9-aa05-9be4551a6044)
+<a href="https://madhurima-devfolio.streamlit.app/">
+  <img src="https://github.com/madhurimarawat/Madhurima-Devfolio/blob/main/App_Snapshots/App_View_1.png" 
+       alt="App View 1" 
+       title="App View 1">
 </a><br><br>
-<a href = "https://madhurima-devfolio.streamlit.app/">![Screenshot 2024-07-14 195301](https://github.com/user-attachments/assets/1ca5c9d3-51c7-4d64-b0d8-96945add143c)
+<a href="https://madhurima-devfolio.streamlit.app/">
+  <img src="https://github.com/user-attachments/assets/2b59a60b-24cc-42d2-b6d4-2814ece6e6b5" 
+       alt="App View 2" 
+       title="App View 2">
 </a><br><br>
-<a href = "https://madhurima-devfolio.streamlit.app/">![Screenshot 2024-07-14 195323](https://github.com/user-attachments/assets/941c7485-1b27-4608-844a-3363a8e4921c)
+<a href="https://madhurima-devfolio.streamlit.app/">
+  <img src="https://github.com/user-attachments/assets/50e51a58-1c21-4ee6-a7d7-3cca8bfc3969" 
+       alt="App View 3" 
+       title="App View 3">
 </a><br><br>
-<a href = "https://madhurima-devfolio.streamlit.app/">![Screenshot 2024-07-14 195420](https://github.com/user-attachments/assets/0a375326-ec7a-4138-af84-1e0e22d8b9d3)
+<a href="https://madhurima-devfolio.streamlit.app/">
+  <img src="https://github.com/user-attachments/assets/e52d5616-e2c9-4999-a4d2-8c28bb3817ec" 
+       alt="App View 4" 
+       title="App View 4">
+</a>
 
 ## Technology Used 💻
 
