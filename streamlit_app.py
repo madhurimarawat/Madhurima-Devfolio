@@ -60,8 +60,11 @@ import streamlit as st
 # Setting the page title
 # This title will only be visible when running the app locally.
 # In the deployed app, the title will be displayed as "Title - Streamlit," where "Title" is the one we provide.
-# If we don't set the title, it will default to "Streamlit"
-st.set_page_config(page_title="Devfolio")
+# If we don't set the title, it will default to "Streamlit."
+st.set_page_config(
+    page_title="Devfolio",
+    page_icon="images/Title_Logo.png",
+)
 
 # To show Font Awesome icons
 css_example = """                                                                                                                                                    
@@ -286,159 +289,174 @@ def display_projects():
     st.header("📎 &nbsp; Projects")
     st.markdown(
         """
-<p style="text-align: center;">
-      <a href="https://git.io/typing-svg" style="text-align: center;">
-        <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Discover+Innovative+Projects+Developed"
-          alt="Typing SVG" loading="lazy" />
-      </a>
+        <p style="text-align: center;">
+            <a href="https://git.io/typing-svg" style="text-align: center;">
+                <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Discover+Innovative+Projects+Developed"
+                alt="Typing SVG" loading="lazy" />
+            </a>
                 """,
         unsafe_allow_html=True,
     )
     st.markdown(
         """
-<p style="text-align:center">Click on the Thumbnail to See the Website</p>
-<table style="text-align:center; width: 100%; border-collapse: collapse;">
-    <colgroup>
-        <col style="width: 30%;">
-        <col style="width: 20%;">
-        <col style="width: 50%;">
-    </colgroup>
-    <thead>
-        <tr>
-            <th>Thumbnail</th>
-            <th>Title</th>
-            <th>Description with Technologies</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!-- Library Management System Row -->
-        <tr>
-            <td>
-                <a href="https://library-management-website.netlify.app/">
-                    <img src="https://5.imimg.com/data5/SELLER/Default/2021/12/UC/BP/KG/52242850/1-4--500x500.jpg" height="150px" title="Library Management system website" alt="Library Management system website" loading="lazy" />
-                </a>
-            </td>
-            <td>
-                <p>Library Website</p>
-                <p>
-                    <a href="https://library-management-website.netlify.app/"><i class="fas fa-globe"></i> Website</a>
-                    <br>
-                    <a href="https://github.com/madhurimarawat/Library-Management-System"><i class="fab fa-github"></i> GitHub</a>
-                </p>
-            </td>
-            <td style="text-align:justify">
-                <p><b>Technologies:</b> CSS, HTML, JavaScript, and Bootstrap<br>
-                Executed frontend development for a Library Management System Website, enhancing book tracking, user management, and overall library experience.</p>
-            </td>
-        </tr>
-        <!-- ML Models Row -->
-        <tr>
-            <td>
-                <a href="https://ml-model-datasets-using-apps-3gy37ndiancjo2nmu36sls.streamlit.app/">
-                    <img src="https://github.com/madhurimarawat/ML-Model-Datasets-Using-Streamlits/assets/105432776/40af8454-c72a-4751-9976-863170693fb8" height="150px" title="Machine Learning Model Website" alt="Website Image" loading="lazy" />
-                </a>
-            </td>
-            <td>
-                <p>HyperTuneML Platform</p>
-                <p>
-                    <a href="https://ml-model-datasets-using-apps-3gy37ndiancjo2nmu36sls.streamlit.app/"><i class="fas fa-globe"></i> Website</a>
-                    <br>
-                    <a href="https://github.com/madhurimarawat/ML-Model-Datasets-Using-Streamlits"><i class="fab fa-github"></i> GitHub</a>
-                </p>
-            </td>
-            <td style="text-align:justify">
-                <p><b>Technologies:</b> Python, Scikit Learn, Joblib, and Streamlit<br>
-                Developed HyperTuneML Platform, a comprehensive platform showcasing diverse machine learning models with real-world datasets. Offers practical insights to enhance understanding of predictive analytics, catering to learners at all levels.</p>
-            </td>
-        </tr>
-        <!-- Web Scraper Row -->
-        <tr>
-            <td>
-                <a href="https://web-scrapper-functions-h6phqofpkjtaylwyn9uvzf.streamlit.app/">
-                    <img src="https://github.com/madhurimarawat/Web-Scrapper-Functions/assets/105432776/c70d6403-d229-4b6f-b484-4645bc3ddd6c" height="150px" title="Web Scraper website" alt="Web Scraper website" loading="lazy" />
-                </a>
-            </td>
-            <td>
-                <p>Web Scraper</p>
-                <p>
-                    <a href="https://web-scrapper-functions-h6phqofpkjtaylwyn9uvzf.streamlit.app/"><i class="fas fa-globe"></i> Website</a>
-                    <br>
-                    <a href="https://github.com/madhurimarawat/Web-Scrapper-Functions"><i class="fab fa-github"></i> GitHub</a>
-                </p>
-            </td>
-            <td style="text-align:justify">
-                <p><b>Technologies:</b> Python, Requests, bs4, and Streamlit<br>
-                Developed a Web Scraper Website with versatile functions for efficient data extraction from diverse websites. Showcases commitment to enhancing data accessibility and streamlining information retrieval processes.</p>
-            </td>
-        </tr>
-        <!-- GitHub Repository Lister Row -->
-        <tr>
-            <td>
-                <a href="https://github-repository-topics-lister.netlify.app/">
-                    <img src="https://github.com/madhurimarawat/GitHub-Repository-Lister/assets/105432776/8b9cade2-c861-4b88-ab72-1598745f9ce0" height="150px" title="Github Repository Lister Website" alt="Github Repository Lister Website" loading="lazy" />
-                </a>
-            </td>
-            <td>
-                <p>GitHub Repository Lister</p>
-                <p>
-                    <a href="https://github-repository-topics-lister.netlify.app/"><i class="fas fa-globe"></i> Website</a>
-                    <br>
-                    <a href="https://github.com/madhurimarawat/GitHub-Repository-Lister"><i class="fab fa-github"></i> GitHub</a>
-                </p>
-            </td>
-            <td style="text-align:justify">
-                <p><b>Technologies:</b> CSS, HTML, JavaScript, and Bootstrap<br>
-                Explore detailed GitHub user profiles with profile images, bios, locations, followers, and up to 30 public repositories. Navigate repositories easily with intuitive pagination, and enjoy dynamic loading animations. Also explore a toolkit about GitHub.</p>
-            </td>
-        </tr>
-        <!-- Semester Notes Row -->
-        <tr>
-            <td>
-                <a href="https://madhurimarawat.github.io/Semester-Notes/">
-                    <img src="https://github.com/user-attachments/assets/f84acd1e-c09b-40e7-a76a-429359a6c222" height="150px" title="Semester Notes Website" alt="Semester Notes Website" loading="lazy" />
-                </a>
-            </td>
-            <td>
-                <p>Study Materials</p>
-                <p>
-                    <a href="https://madhurimarawat.github.io/Semester-Notes/"><i class="fas fa-globe"></i> Website</a>
-                    <br>
-                    <a href="https://github.com/madhurimarawat/Semester-Notes"><i class="fab fa-github"></i> GitHub</a>
-                </p>
-            </td>
-            <td style="text-align:justify">
-                <p><b>Technologies:</b> CSS, HTML, JavaScript, and Bootstrap<br>
-                Comprehensive repository of course materials, lecture notes, and study guides tailored to a range of subjects. A valuable resource for students seeking organized and easily accessible academic content, promoting effective learning and study practices.</p>
-            </td>
-        </tr>
-        <!-- CodeCulture Row -->
-        <tr>
-            <td>
-                <a href="https://github.com/madhurimarawat/CodeCulture-Daily">
-                    <img src="https://github.com/user-attachments/assets/a3bfeab0-aa38-47ed-ad07-3a9a7b8906c7" height="150px" title="CodeCulture Website" alt="CodeCulture Website" loading="lazy" />
-                </a>
-            </td>
-            <td>
-                <p>CodeCulture Daily</p>
-                <p>
-                    <a href="https://madhurimarawat.github.io/CodeCulture-Daily/"><i class="fas fa-globe"></i> Website</a>
-                    <br>
-                    <a href="https://github.com/madhurimarawat/CodeCulture-Daily"><i class="fab fa-github"></i> GitHub</a>
-                </p>
-            </td>
-            <td style="text-align:justify">
-                <p><b>Technologies:</b>HTML, GitHub, Programming and Bootstrap<br>
-                CodeCulture-Daily is a programming challenge repository offering daily problems to boost
-                                coding skills. Solutions and
-                                explanations are posted at 7 PM, fostering collaborative learning.</p>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-
-
- """,
+        <p style="text-align:center">Click on the Thumbnail to See the Website</p>
+        <table style="text-align:center; width: 100%; border-collapse: collapse;">
+            <colgroup>
+                <col style="width: 30%;">
+                <col style="width: 20%;">
+                <col style="width: 50%;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Thumbnail</th>
+                    <th>Title</th>
+                    <th>Description with Technologies</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Library Management System Row -->
+                <tr>
+                    <td>
+                        <a href="https://library-management-website.netlify.app/">
+                            <img src="https://5.imimg.com/data5/SELLER/Default/2021/12/UC/BP/KG/52242850/1-4--500x500.jpg" height="150px" title="Library Management system website" alt="Library Management system website" loading="lazy" />
+                        </a>
+                    </td>
+                    <td>
+                        <p>Library Website</p>
+                        <p>
+                            <a href="https://library-management-website.netlify.app/"><i class="fas fa-globe"></i> Website</a>
+                            <br>
+                            <a href="https://github.com/madhurimarawat/Library-Management-System"><i class="fab fa-github"></i> GitHub</a>
+                        </p>
+                    </td>
+                    <td style="text-align:justify">
+                        <p><b>Technologies:</b> CSS, HTML, JavaScript, and Bootstrap<br>
+                        Executed frontend development for a Library Management System Website, enhancing book tracking, user management, and overall library experience.</p>
+                    </td>
+                </tr>
+                <!-- ML Models Row -->
+                <tr>
+                    <td>
+                        <a href="https://ml-model-datasets-using-apps-3gy37ndiancjo2nmu36sls.streamlit.app/">
+                            <img src="https://github.com/user-attachments/assets/5ad5ba7a-8227-4b7d-80a5-d043c2810383" height="150px" title="Machine Learning Model Website" alt="Website Image" loading="lazy" />
+                        </a>
+                    </td>
+                    <td>
+                        <p>HyperTuneML Platform</p>
+                        <p>
+                            <a href="https://ml-model-datasets-using-apps-3gy37ndiancjo2nmu36sls.streamlit.app/"><i class="fas fa-globe"></i> Website</a>
+                            <br>
+                            <a href="https://github.com/madhurimarawat/ML-Model-Datasets-Using-Streamlits"><i class="fab fa-github"></i> GitHub</a>
+                        </p>
+                    </td>
+                    <td style="text-align:justify">
+                        <p><b>Technologies:</b> Python, Scikit Learn, Joblib, and Streamlit<br>
+                        Developed HyperTuneML Platform, a comprehensive platform showcasing diverse machine learning models with real-world datasets. Offers practical insights to enhance understanding of predictive analytics, catering to learners at all levels.</p>
+                    </td>
+                </tr>
+                <!-- Web Scraper Row -->
+                <tr>
+                    <td>
+                        <a href="https://web-scrapper-functions-h6phqofpkjtaylwyn9uvzf.streamlit.app/">
+                            <img src="https://github.com/user-attachments/assets/f935ec1b-b973-49fe-9fae-5fc9340134f1" height="150px" title="Web Scraper website" alt="Web Scraper website" loading="lazy" />
+                        </a>
+                    </td>
+                    <td>
+                        <p>Web Scraper</p>
+                        <p>
+                            <a href="https://web-scrapper-functions-h6phqofpkjtaylwyn9uvzf.streamlit.app/"><i class="fas fa-globe"></i> Website</a>
+                            <br>
+                            <a href="https://github.com/madhurimarawat/Web-Scrapper-Functions"><i class="fab fa-github"></i> GitHub</a>
+                        </p>
+                    </td>
+                    <td style="text-align:justify">
+                        <p><b>Technologies:</b> Python, Requests, bs4, and Streamlit<br>
+                        Developed a Web Scraper Website with versatile functions for efficient data extraction from diverse websites. Showcases commitment to enhancing data accessibility and streamlining information retrieval processes.</p>
+                    </td>
+                </tr>
+                <!-- GitHub Repository Lister Row -->
+                <tr>
+                    <td>
+                        <a href="https://github-repository-topics-lister.netlify.app/">
+                            <img src="https://github.com/madhurimarawat/GitHub-Repository-Lister/assets/105432776/8b9cade2-c861-4b88-ab72-1598745f9ce0" height="150px" title="Github Repository Lister Website" alt="Github Repository Lister Website" loading="lazy" />
+                        </a>
+                    </td>
+                    <td>
+                        <p>GitHub Repository Lister</p>
+                        <p>
+                            <a href="https://github-repository-topics-lister.netlify.app/"><i class="fas fa-globe"></i> Website</a>
+                            <br>
+                            <a href="https://github.com/madhurimarawat/GitHub-Repository-Lister"><i class="fab fa-github"></i> GitHub</a>
+                        </p>
+                    </td>
+                    <td style="text-align:justify">
+                        <p><b>Technologies:</b> CSS, HTML, JavaScript, and Bootstrap<br>
+                        Explore detailed GitHub user profiles with profile images, bios, locations, followers, and up to 30 public repositories. Navigate repositories easily with intuitive pagination, and enjoy dynamic loading animations. Also explore a toolkit about GitHub.</p>
+                    </td>
+                </tr>
+                <!-- Semester Notes Row -->
+                <tr>
+                    <td>
+                        <a href="https://madhurimarawat.github.io/Semester-Notes/">
+                            <img src="https://github.com/user-attachments/assets/f84acd1e-c09b-40e7-a76a-429359a6c222" height="150px" title="Semester Notes Website" alt="Semester Notes Website" loading="lazy" />
+                        </a>
+                    </td>
+                    <td>
+                        <p>Study Materials</p>
+                        <p>
+                            <a href="https://madhurimarawat.github.io/Semester-Notes/"><i class="fas fa-globe"></i> Website</a>
+                            <br>
+                            <a href="https://github.com/madhurimarawat/Semester-Notes"><i class="fab fa-github"></i> GitHub</a>
+                        </p>
+                    </td>
+                    <td style="text-align:justify">
+                        <p><b>Technologies:</b> CSS, HTML, JavaScript, and Bootstrap<br>
+                        Comprehensive repository of course materials, lecture notes, and study guides tailored to a range of subjects. A valuable resource for students seeking organized and easily accessible academic content, promoting effective learning and study practices.</p>
+                    </td>
+                </tr>
+                <!-- CodeCulture Row -->
+                <tr>
+                    <td>
+                        <a href="https://github.com/madhurimarawat/CodeCulture-Daily">
+                            <img src="https://github.com/user-attachments/assets/a3bfeab0-aa38-47ed-ad07-3a9a7b8906c7" height="150px" title="CodeCulture Website" alt="CodeCulture Website" loading="lazy" />
+                        </a>
+                    </td>
+                    <td>
+                        <p>CodeCulture Daily</p>
+                        <p>
+                            <a href="https://madhurimarawat.github.io/CodeCulture-Daily/"><i class="fas fa-globe"></i> Website</a>
+                            <br>
+                            <a href="https://github.com/madhurimarawat/CodeCulture-Daily"><i class="fab fa-github"></i> GitHub</a>
+                        </p>
+                    </td>
+                    <td style="text-align:justify">
+                        <p><b>Technologies:</b> HTML, GitHub, Programming, and Bootstrap<br>
+                        CodeCulture-Daily is a programming challenge repository offering daily problems to boost coding skills. Solutions and explanations are posted at 7 PM, fostering collaborative learning.</p>
+                    </td>
+                </tr>
+                <!-- Stock Market Prediction Row -->
+                <tr>
+                    <td>
+                        <a href="https://stock-market-numerical-text-hybrid-prediction.streamlit.app/">
+                            <img src="https://github.com/madhurimarawat/Stock-Market-Prediction/raw/main/Codes/Historical_Data_Analysis/App_Snapshots/Streamlit_App/App_View_1.png" height="150px" title="Stock Market Prediction" alt="Stock Market Prediction" loading="lazy" />
+                        </a>
+                    </td>
+                    <td>
+                        <p>Stock Market Prediction</p>
+                        <p>
+                            <a href="https://stock-market-numerical-text-hybrid-prediction.streamlit.app/"><i class="fas fa-globe"></i> Website</a>
+                            <br>
+                            <a href="https://github.com/madhurimarawat/Stock-Market-Prediction"><i class="fab fa-github"></i> GitHub</a>
+                        </p>
+                    </td>
+                    <td style="text-align:justify">
+                        <p><b>Technologies:</b> Python, Pandas, Scikit Learn, and Streamlit<br>
+                       Developed a web application that combines numerical data analysis and NLP to predict stock market trends. Utilized hybrid models for processing numerical data and analyzing market sentiment, enhancing prediction accuracy and providing valuable insights to users</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    """,
         unsafe_allow_html=True,
     )
 
