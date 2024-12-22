@@ -458,7 +458,7 @@ def display_projects():
                 <tr>
                     <td>
                         <a href="https://madhurimarawat.github.io/NameBlock-Designer/">
-                            <img src="https://github.com/madhurimarawat/NameBlock-Designer/raw/main/website_view/Website_Working.gif" height="150px" title="Stock Market Prediction" alt="Stock Market Prediction" loading="lazy" />
+                            <img src="https://github.com/madhurimarawat/NameBlock-Designer/raw/main/website_view/Website_Working.gif" height="150px" title="NameBlock Designer" alt="NameBlock Designer" loading="lazy" />
                         </a>
                     </td>
                     <td>
@@ -476,6 +476,27 @@ def display_projects():
                                 themes.Users can download their designs as images, and the tool is fully responsive,
                                 providing a seamless experience on
                                 all devices.</p>
+                    </td>
+                </tr>              
+                <!-- Madhurima Mindscape Row -->
+                <tr>
+                    <td>
+                        <a href="https://madhurimarawat.github.io/Madhurima-Mindscape/">
+                            <img src="https://github.com/madhurimarawat/Madhurima-Mindscape/raw/main/website_snapshots/Website_Working.gif" height="150px" title="Madhurima Mindscape" alt="Madhurima Mindscape" loading="lazy" />
+                        </a>
+                    </td>
+                    <td>
+                        <p>NameBlock Designer</p>
+                        <p>
+                            <a href="https://madhurimarawat.github.io/Madhurima-Mindscape/"><i class="fas fa-globe"></i> Website</a>
+                            <br>
+                            <a href="https://github.com/madhurimarawat/Madhurima-Mindscape"><i class="fab fa-github"></i> GitHub</a>
+                        </p>
+                    </td>
+                    <td style="text-align:justify">
+                        <p><b>Technologies:</b> HTML, CSS, JavaScript, and GitHub<br>
+                       This is a personal blog where I share a variety of content, including personal reflections, tech insights, project diaries, and creative photography.
+                                Explore different categories such as personal growth, tech insights, and project experiences.</p>
                     </td>
                 </tr>
             </tbody>
