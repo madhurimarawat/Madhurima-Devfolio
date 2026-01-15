@@ -115,7 +115,7 @@ def display_objective():
                 height="100" />
             </p>
             <p style = "text-align:left">
-              🏛️ Pursuing B.Tech(Hons.) in Data Science from CSVTU
+              🏛️ Completing B.Tech(Hons.) in Data Science from CSVTU
               <img
                 src="https://github.com/madhurimarawat/madhurimarawat/assets/105432776/d9fceaeb-aea5-4954-823b-ce90ceb6ef0b"
                 height="35" width="35" />
@@ -125,21 +125,13 @@ def display_objective():
               Science 📊📈, and Machine Learning 🛠📚
             </p>
             <p style = "text-align:left">
-              👯 I’m looking to collaborate on Python
-              <img src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png" title="Python"
-                alt="Python Language" width="35" height="35" />
-            </p>
-            <p style = "text-align:left">
-              💬 Ask me about programming languages 😀
-            </p>
-            <p style = "text-align:left">
               📫 How to reach me: &nbsp;
               <a href="https://www.linkedin.com/in/madhurima-rawat/" target="_blank">
                 <img src="https://img.shields.io/badge/-madhurima-blue?style=flat&logo=Linkedin&logoColor=white"
                   alt="Linkedin Badge" />
               </a>
               &nbsp; &nbsp;
-              <a href="mailto:rawatmadhurima@gmail.com">
+              <a href="mailto:rawatmadhurima4@gmail.com">
                 <img
                   src="https://github.com/madhurimarawat/Machine-Learning-Using-Python/assets/105432776/b6a0873a-e961-42c0-8fbf-ab65828c961a"
                   title="Mail Illustration" alt="Mail Illustration📫" height="35" width="30" />
@@ -625,8 +617,7 @@ def social_links():
     # Links with Font Awesome icons
     st.sidebar.markdown(
         """
-        <a href="mailto:rawatmadhurima@gmail.com"><i class="fas fa-envelope"></i> Email</a> &nbsp; | &nbsp;
-      <a href="tel:+9407959924"><i class="fa fa-phone"></i> 9407959924</a> &nbsp; | &nbsp;
+        <a href="mailto:rawatmadhurima4@gmail.com"><i class="fas fa-envelope"></i> Email</a> &nbsp; | &nbsp;
       <a href="https://github.com/madhurimarawat"><i class="fab fa-github"></i> GitHub</a> &nbsp; |
       <a href="https://www.linkedin.com/in/madhurima-rawat/"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp;|&nbsp;
       <a href="https://linktr.ee/madhurima_rawat" target="_blank"><i class="fa fa-link"></i> LinkTree</a> &nbsp;|&nbsp;
@@ -708,3 +699,4 @@ if __name__ == "__main__":
     )
 
     main()
+
