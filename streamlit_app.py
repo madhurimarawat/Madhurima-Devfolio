@@ -115,7 +115,7 @@ def display_objective():
                 height="100" />
             </p>
             <p style = "text-align:left">
-              🏛️ Completing B.Tech(Hons.) in Data Science from CSVTU
+              🏛️ Completed B.Tech(Hons.) in Data Science from CSVTU
               <img
                 src="https://github.com/madhurimarawat/madhurimarawat/assets/105432776/d9fceaeb-aea5-4954-823b-ce90ceb6ef0b"
                 height="35" width="35" />
@@ -177,8 +177,8 @@ def display_education():
         <tr>
           <td>B.Tech.</td>
           <td>CSVTU, Bhilai</td>
-          <td>8.23 (Current)/10</td>
-          <td>2021 - Present</td>
+          <td>8.54 /10</td>
+          <td>2021 - 2025</td>
         </tr>
         <tr>
           <td>Senior Secondary</td>
@@ -699,4 +699,5 @@ if __name__ == "__main__":
     )
 
     main()
+
 
